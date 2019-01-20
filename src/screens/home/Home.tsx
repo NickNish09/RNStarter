@@ -8,6 +8,7 @@ import { UIStore } from 'stores/UIStore';
 import { codePushConfig } from 'utils/code-push';
 import { COUNTER, IScreen } from 'screens';
 import { Button } from 'components/button/Button';
+import SplashScreen from 'react-native-splash-screen';
 
 const s = require('./Home.scss');
 
@@ -23,6 +24,10 @@ export class Home extends React.Component<IScreen> {
         },
       },
     };
+  }
+
+  componentWillMount() {
+    SplashScreen.hide();
   }
 
   componentDidAppear() {

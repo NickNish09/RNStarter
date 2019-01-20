@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		13B07F961A680F5B00A75B9A /* RNStarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "RNStarter.app"; path = "/Volumes/Data/Projects/birkir/RNStarter/ios/build/Debug-iphoneos/RNStarter.app"; sourceTree = "<absolute>"; };
+		7D76572421F5061F00C22585 /* RNStarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNStarter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE1E4EB30ABEFC190EFE7436 /* libPods-RNStarter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNStarter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D54EB502811BEE926F2F8941 /* Pods-RNStarter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNStarter.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNStarter/Pods-RNStarter.release.xcconfig"; sourceTree = "<group>"; };
 		E33FD0F31FFBDBD900EB627A /* RNUeno.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNUeno.m; sourceTree = "<group>"; };
@@ -67,6 +67,7 @@
 				E3A2B89D1FEACEE70099C8F8 /* RNStarter */,
 				8079FCF0BF9CE803AC9EB17F /* Pods */,
 				34010D848C7A0E50E09F601F /* Frameworks */,
+				7D76572421F5061F00C22585 /* RNStarter.app */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -85,7 +86,7 @@
 				E33FD0F31FFBDBD900EB627A /* RNUeno.m */,
 				E33FD0F51FFBDBFB00EB627A /* RNUeno.h */,
 			);
-			path = "RNStarter";
+			path = RNStarter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +123,9 @@
 			);
 			dependencies = (
 			);
-			name = "RNStarter";
+			name = RNStarter;
 			productName = "Hello World";
-			productReference = 13B07F961A680F5B00A75B9A /* RNStarter.app */;
+			productReference = 7D76572421F5061F00C22585 /* RNStarter.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -250,7 +251,7 @@
 				CURRENT_PROJECT_VERSION = 18;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "RNStarter/Info.plist";
+				INFOPLIST_FILE = RNStarter/Info.plist;
 				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-traditional";
 				INFOPLIST_PREFIX_HEADER = "${BUILD_DIR}/GeneratedInfoPlistDotEnv.h";
 				INFOPLIST_PREPROCESS = YES;
@@ -261,7 +262,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.rnstarter;
-				PRODUCT_NAME = "RNStarter";
+				PRODUCT_NAME = RNStarter;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -278,7 +279,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 18;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "RNStarter/Info.plist";
+				INFOPLIST_FILE = RNStarter/Info.plist;
 				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-traditional";
 				INFOPLIST_PREFIX_HEADER = "${BUILD_DIR}/GeneratedInfoPlistDotEnv.h";
 				INFOPLIST_PREPROCESS = YES;
@@ -289,7 +290,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.rnstarter;
-				PRODUCT_NAME = "RNStarter";
+				PRODUCT_NAME = RNStarter;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				VERSIONING_SYSTEM = "apple-generic";

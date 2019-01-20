@@ -8102,6 +8102,11 @@ react-native-sentry@0.40.2:
     "@sentry/wizard" "^0.12.1"
     raven-js "^3.24.2"
 
+react-native-splash-screen@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/react-native-splash-screen/-/react-native-splash-screen-3.1.1.tgz#1a4e46c9fdce53ff52af2a2cb4181788c4e30b30"
+  integrity sha512-PU2YocOSGbLjL9Vgcq/cwMNuHHKNjjuPpa1IPMuWo+6EB/fSZ5VOmxSa7+eucQe3631s3NhGuk3eHKahU03a4Q==
+
 react-native-ueno-css-modules@1.0.12:
   version "1.0.12"
   resolved "https://registry.yarnpkg.com/react-native-ueno-css-modules/-/react-native-ueno-css-modules-1.0.12.tgz#3829291f5012dedf87c68477fd5c3e00316a8bc3"

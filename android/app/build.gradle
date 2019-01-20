@@ -167,6 +167,7 @@ configurations.all {
 }
 
 dependencies {
+    implementation project(':react-native-splash-screen')
     // Local implementations
     implementation fileTree(dir: "libs", include: ["*.jar"])
 
