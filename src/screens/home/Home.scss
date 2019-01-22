@@ -9,15 +9,31 @@
 }
 
 .logo {
+  align-self: center;
   margin-top: 20px;
   margin-bottom: 40px;
-
   width: 100%;
 }
 
 .text {
-  margin-bottom: 10px;
-
+  align-self: center;
+  margin-bottom: 25px;
   font-size: 28px;
   font-weight: 200;
+}
+
+.btnlogin {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background-color: #1e1d1d;
+}
+
+.btnsignup {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background-color: #661a1a;
+}
+
+.marginBtm {
+  margin-bottom: 8px;
 }

@@ -16,7 +16,7 @@ export class Counter extends React.Component<IScreen> {
     return {
       topBar: {
         title: {
-          text: 'Counter',
+          text: 'Registrar',
         },
       },
     };

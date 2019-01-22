@@ -7,8 +7,10 @@ import CodePush from 'react-native-code-push';
 import { UIStore } from 'stores/UIStore';
 import { codePushConfig } from 'utils/code-push';
 import { COUNTER, IScreen } from 'screens';
-import { Button } from 'components/button/Button';
+import { Button } from 'react-native-elements';
 import SplashScreen from 'react-native-splash-screen';
+import Icon from 'react-native-vector-icons/FontAwesome';
+import { Input } from 'react-native-elements';
 
 const s = require('./Home.scss');
 
@@ -20,7 +22,7 @@ export class Home extends React.Component<IScreen> {
     return {
       topBar: {
         title: {
-          text: 'Home',
+          text: 'Entrar',
         },
       },
     };
@@ -51,11 +53,53 @@ export class Home extends React.Component<IScreen> {
             source={require('assets/images/logo.png')}
             resizeMode="contain"
           />
-
-          <Text style={s.text}>Welcome Home</Text>
+          <Text style={s.text}>Bem vindo à Template</Text>
+          <Input
+            placeholder='Email'
+            leftIcon={
+              <Icon
+                name='at'
+                size={24}
+                color='black'
+              />
+            }
+          />
+          <Input
+            placeholder='Senha'
+            leftIcon={
+              <Icon
+                name='lock'
+                size={24}
+                color='black'
+              />
+            }
+          />
         </View>
 
-        <Button onPress={this.onCounterScreenPress} title="Counter Screen" />
+        <Button
+          raised
+          style={s.marginBtm}
+          buttonStyle={s.btnlogin}
+          icon={
+            <Icon
+              name='sign-in'
+              size={24}
+              color='white'
+            />
+          }
+          title='Entrar' />
+
+        <Button
+          raised
+          buttonStyle={s.btnsignup}
+          icon={
+            <Icon
+              name='user-plus'
+              size={24}
+              color='white'
+            />
+          }
+          onPress={this.onCounterScreenPress} title="Novo usuário? Registrar-se" />
       </View>
     );
   }
